@@ -11,57 +11,115 @@
     ></script>
   </head>
   <body>
-    <h1>Industrial Design Chairs</h1>
-    <div class="chairs">
-      <model-viewer
-        src="./3d models/Oba.glb"
-        alt="A 3D model of Oba ID chair"
-        ar
-        auto-rotate
-        camera-controls
-      ></model-viewer>
-      <model-viewer
-        src="./3d models/Picard.glb"
-        alt="A 3D model of Picard ID chair"
-        ar
-        auto-rotate
-        camera-controls
-      ></model-viewer>˝
-      <model-viewer
-        src="./3d models/Sitzplatz.glb"
-        alt="A 3D model of Sitzplatz ID chair"
-        ar
-        auto-rotate
-        camera-controls
-      ></model-viewer>
-      <model-viewer
-        src="./3d models/Avona.glb"
-        alt="A 3D model of Avona ID chair"
-        ar
-        ar-modes="webxr scene-viewer quick-look"
-        camera-controls
-        tone-mapping="commerce"
-        poster="poster.webp"
-        shadow-intensity="1"
-      >
-        <button
-          class="Hotspot"
-          slot="hotspot-1"
-          data-position="0.22812944648876643m 0.6467813907458737m 0.20851820909698682m"
-          data-normal="-0.19257327532393212m 0.8784234334717684m -0.43736461351906686m"
-          data-visibility-attribute="visible"
-        >
-          <div class="HotspotAnnotation">100% Cotton</div></button
-        ><button
-          class="Hotspot"
-          slot="hotspot-3"
-          data-position="0.2239676129260907m 0.8118540361214319m -0.06605546280340402m"
-          data-normal="-0.7029512929661116m 0.2150374920562148m 0.6779515887786128m"
-          data-visibility-attribute="visible"
-        >
-          <div class="HotspotAnnotation">Leather</div>
-        </button>
-      </model-viewer>
+    <div class="navbar">
+      <div class="logo">Humber College</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </div>
+    <div class="hero-section">
+      <div class="hero-image"></div>
+      <h2>Industrial Design: Chair Show 2024</h2>
+    </div>
+    <div class="chairs">
+      <div class="chair">
+        <model-viewer
+          src="./3d models/Oba.glb"
+          alt="A 3D model of Oba ID chair"
+          ar
+          auto-rotate
+          camera-controls
+  
+        >
+            <button class="Hotspot" slot="hotspot-1" data-position="0.09429634427270517m 1.3911777815117228m -0.3277491307947251m" data-normal="-0.43753439759345913m 0.05886973214908616m 0.8972725369469545m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Secluded Workspace Environment</div>
+            </button>
+            <button class="Hotspot" slot="hotspot-3" data-position="0.10628773541700051m 0.688334396202456m -0.10103186070163905m" data-normal="-0.6779299468554707m 0.2890611125444499m 0.6759102457953302m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Luxurious Padding</div>
+            </button>
+            <button class="Hotspot" slot="hotspot-4" data-position="-0.22364218365705335m 0.2148138301795528m 0.4280012506320916m" data-normal="-0.558936226175453m -0.00931976072980443m 0.8291582702528402m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Contemporary Aesthetic</div>
+            </button>
+            <button class="Hotspot" slot="hotspot-5" data-position="-0.43548188491185197m 0.5320961834537105m -0.09103017016489176m" data-normal="-0.05300972294241477m 0.9982806199837612m -0.025015455990366756m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Extended Seating Comfort</div>
+            </button>
+            <button class="Hotspot" slot="hotspot-6" data-position="-0.018645989160367804m 0.9438147087097062m -0.2939789587809504m" data-normal="-0.178826247532701m 0.18432425494370758m 0.9664604193824082m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Ergonomic Design</div>
+            </button>
+        </model-viewer>
+    </div>
+    
+        <p class="chair-title">Oba ID Chair</p>
+      </div>
+      <div class="chair">
+        <model-viewer
+          src="./3d models/Picard.glb"
+          alt="A 3D model of Picard ID chair"
+          ar
+          auto-rotate
+          camera-controls
+          shadow-intensity="2"
+        >
+          <button class="Hotspot" slot="hotspot-1" data-position="0.19115336990806409m 0.6862970757884113m -0.07115128232862045m" data-normal="-0.7046196711065282m 0.3232294914726753m 0.6316912338572095m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Soft Padding and Luxurious texture</div>
+          </button>
+          <button class="Hotspot" slot="hotspot-2" data-position="-0.2786932395292112m 0.4735010747441475m 0.18451437401108994m" data-normal="-0.03758221637294385m 0.9992709423182283m 0.00672018235892342m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Premium Leather Seating</div>
+          </button>
+          <button class="Hotspot" slot="hotspot-3" data-position="-0.12422526273719603m 0.1261797658945707m 0.47568721878751696m" data-normal="-0.7970507251072055m 0.030146224570588197m 0.6031594704140998m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Polished Wooden Legs</div>
+          </button>
+          <button class="Hotspot" slot="hotspot-4" data-position="-0.2729201315443457m 0.6776888478349246m -0.24816266917434748m" data-normal="0.0049149719729101905m 0.9732357950579086m -0.2297562409783597m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Ergonomic design</div>
+          </button>
+          <button class="Hotspot" slot="hotspot-6" data-position="-0.0000452237960697488m 0.7187972907803952m 0.5014135953268184m" data-normal="0.2718243570251787m 0.9532431482204974m 0.13205687902764984m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Padded Armrests with Chenille Fabric Covering</div>
+          </button>
+        </model-viewer>
+        <p class="chair-title">Picard ID Chair</p>
+      </div>
+      <div class="chair">
+          <model-viewer src="../3d models/Sitzplatz.glb" 
+          alt="A 3D model of Sitzplatz ID chair"
+          ar
+          auto-rotate
+          camera-controls
+          shadow-intensity="2" ar-modes="webxr scene-viewer quick-look" shadow-intensity="2" tone-mapping="commerce" shadow-softness="1">
+            <button class="Hotspot" slot="hotspot-1" data-position="0.17112769095524033m 0.36112153475432196m 0.38483017694629285m" data-normal="0.3970707721177876m 0.08366733730398113m 0.913966399053185m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Luxurious Green Linen Upholstery
+                </div>
+            </button><button class="Hotspot" slot="hotspot-2" data-position="-0.33042952411482496m 0.6392668242736637m 0.2269436899817726m" data-normal="-0.017006755059995517m 0.9984833582291422m 0.05236175724499402m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Built-in Dark Walnut Table</div>
+            </button><button class="Hotspot" slot="hotspot-3" data-position="0.11325449935838988m 0.7840931252908633m -0.23182272861824954m" data-normal="0.34924902937048113m 0.21331373766226308m 0.9124266353018922m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">High Quality Foam Padding</div>
+            </button><button class="Hotspot" slot="hotspot-4" data-position="0.5156016774758045m 0.11478746327874412m 0.11577542218384326m" data-normal="0.33846312825294195m -0.017401632043559944m 0.9408187360036222m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Solid Beech Wood Legs</div>
+            </button>
+        </model-viewer>
+        </model-viewer>
+        <p class="chair-title">Sitzplatz ID Chair</p>
+      </div>
+      <div class="chair">
+        <model-viewer
+          src="./3d models/Avona.glb"
+          alt="A 3D model of Avona ID chair"
+          ar
+          ar-modes="webxr scene-viewer quick-look"
+          camera-controls
+          tone-mapping="commerce"
+          shadow-intensity="1"
+        ></model-viewer>
+        <p class="chair-title">Avona ID Chair</p>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Chair Show. All rights reserved.</p>
+    </footer>
+  </body>
+  </html>
   </body>
 </html>
